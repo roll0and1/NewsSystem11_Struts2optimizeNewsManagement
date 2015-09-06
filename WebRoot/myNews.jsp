@@ -67,7 +67,7 @@
 					<td>${status.index+1}</td>
 					<!--输出标题  -->
 					<td align="left"><a
-						href="javascript:preview('preview?id=${news.id }')">${news.title }</a></td>
+						href="javascript:preview('news!preview?id=${news.id }')">${news.title }</a></td>
 					<!--输出创建时间  -->
 					<td>${news.createTime}</td>
 					<!--输出新闻栏目  -->
